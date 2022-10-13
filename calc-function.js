@@ -12,5 +12,5 @@ function calcular(){
     }
     console.log(soma)
     var resultado = soma / divisor
-    alert(`Sua Média é ${resultado}.`)
+    alert(`Sua Média é ${resultado.toFixed(2)}.`)
 }
